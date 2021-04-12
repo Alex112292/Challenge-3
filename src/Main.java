@@ -7,7 +7,8 @@ public class Main extends Frame {
     private Button _pullButton;
     private Scanner _input;
     public Main(){
-        _pullButton = new Button(java.awt.Color.RED, "Pull", _path, 500, 200);
+       _pullButton = new Button(java.awt.Color.RED, "Pull", _path, 500, 200);
+       _pushButton = new Button(java.awt.Color.YELLOW, "Push", _path, 400, 200);
 
     }
     public static void main(String[] args) {
