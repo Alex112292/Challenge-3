@@ -23,8 +23,9 @@ public class Button extends Ellipse {
     }
 
     public void mouseClicked(MouseEvent e) {
-        Scanner _input = new Scanner(System.in);
+       // Scanner _input = new Scanner(System.in);
         if(_action.equals("Pull")){
+            System.out.println(gitSubprocessClient);
             String pull = gitSubprocessClient.gitPull("master");
             System.out.println("Pulled from master branch.");
         }
