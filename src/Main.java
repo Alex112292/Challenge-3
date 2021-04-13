@@ -13,12 +13,8 @@ public class Main extends Frame {
 
     public Main(){
         _pullButton = new Button(java.awt.Color.RED, "Pull", _path, 500, 200);
-<<<<<<< HEAD
         _addButton = new Button(java.awt.Color.BLUE, "Add", _path, 300,200);
-=======
-        _addButton = new Button(java.awt.Color.BLUE, "Add", _path, 500,100);
-        _commitButton = new Button(Color.MAGENTA, "Commit", _path, 150, 100);
->>>>>>> 3c3b7c241591118ba3ee6d61f22c2d53c2fa0024
+        _commitButton = new Button(Color.MAGENTA, "Commit", _path, 400, 200);
     }
 
     public static void main(String[] args) {
