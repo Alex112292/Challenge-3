@@ -1,7 +1,6 @@
 import wheels.users.*;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
-import java.util.Scanner;
 import git.tools.client.GitSubprocessClient;
 public class Button extends Ellipse {
     private Color _mainColor;
@@ -23,7 +22,6 @@ public class Button extends Ellipse {
     }
 
     public void mouseClicked(MouseEvent e) {
-       // Scanner _input = new Scanner(System.in);
         if(_action.equals("Pull")){
             System.out.println(gitSubprocessClient);
             String pull = gitSubprocessClient.gitPull("master");
