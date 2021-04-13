@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Welcome to Challenge-3!
 
-You can use the [editor on GitHub](https://github.com/ash730/Challenge-3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Banner](./images.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## How to Instal our Project: 
+### Pre-Installation
+1. Java Version: Java SE 16 (SDK 16)
+2. [Link to the Reopository](https://github.com/ash730/Challenge-3)
+3. Update your programming platform is up to date! (This way there is no conflicts) 
+4. Gather your Libraries [Wheels.jar] - taken from a prior class. [GitSubpricessClient](https://github.com/CSC109/GitSubprocessClient) Making sure each library is ran in the most updated version of Java (Java SE 16)
+5. A smile on your face! 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Actual isntalation
+- Once you have cloned the repo to your desired location on your computer, you will then import it to your programming platform. 
+- Once you have opened up you will import your two libraries by pressing File -> Projuct Structures -> Libraries -> Plus Button -> Add both libraries one at a time -> Press **Apply** and Ok 
+- Once that is all completed everything should be ready to go!  
 
-```markdown
-Syntax highlighted code block
+###Contributers 
+Alex S. 
+Amber K.
+Ashley M.
+Rom W.
 
-# Header 1
-## Header 2
-### Header 3
+###Break Down
+- Alex S: Pull button 
+- Amber K: Add button
+- Ashley M: Commit Button & Website
+- Rom W: Push Button
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ash730/Challenge-3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
