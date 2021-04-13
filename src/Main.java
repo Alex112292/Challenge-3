@@ -16,6 +16,7 @@ public class Main extends Frame {
     private Scanner _input;
 
     public Main(){
+        System.out.println("Blue: Add all, Magenta: Commit, Green: Push, Red: Pull");
         Scanner _input = new Scanner(System.in);
         System.out.println("Please enter the repopath of your project. Example: C:/Users/Alex/Documents/GitRepos/HelloWorld");
         _path = _input.nextLine();
@@ -29,6 +30,5 @@ public class Main extends Frame {
 
     public static void main(String[] args) {
         new Main();
-
     }
 }
