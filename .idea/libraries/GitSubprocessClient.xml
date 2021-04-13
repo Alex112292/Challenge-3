@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GitSubprocessClient">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../GitSubprocessClient/out/production/GitSubprocessClient" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -27,5 +27,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="wheels" level="project" />
+    <orderEntry type="library" name="GitSubprocessClient" level="project" />
   </component>
 </module>
