@@ -33,5 +33,9 @@ public class Button extends Ellipse {
             String gitAddAll = gitSubprocessClient.gitAddAll();
             System.out.println("Changes have been added. Please commit your changes now");
         }
+        if(_action.equals("Commit")){
+            String commit = gitSubprocessClient.gitCommit("Commit");
+            System.out.println("Your changes have been commited.");
+        }
     }
 }
