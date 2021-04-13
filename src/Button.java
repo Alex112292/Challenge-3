@@ -1,7 +1,6 @@
 import wheels.users.*;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
-import java.util.Scanner;
 import git.tools.client.GitSubprocessClient;
 public class Button extends Ellipse {
     private Color _mainColor;
@@ -23,14 +22,22 @@ public class Button extends Ellipse {
     }
 
     public void mouseClicked(MouseEvent e) {
-        Scanner _input = new Scanner(System.in);
         if(_action.equals("Pull")){
+            System.out.println(gitSubprocessClient);
             String pull = gitSubprocessClient.gitPull("master");
             System.out.println("Pulled from master branch.");
         }
         if(_action.equals("Push")){
             String push = gitSubprocessClient.gitPush("master");
             System.out.println("Pushed from a local branch to the master branch.");
+        }
+        if(_action.equals("Add")){
+            String gitAddAll = gitSubprocessClient.gitAddAll();
+            System.out.println("Changes have been added. Please commit your changes now");
+        }
+        if(_action.equals("Commit")){
+            String commit = gitSubprocessClient.gitCommit("Commit");
+            System.out.println("Your changes have been commited.");
         }
     }
 }
