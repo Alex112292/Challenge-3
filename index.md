@@ -1,6 +1,6 @@
 # Welcome to Challenge-3!
 
-![Banner](./images.png)
+![Banner](./images.jpg)
 
 
 ## How to Instal our Project: 
@@ -11,18 +11,18 @@
 4. Gather your Libraries [Wheels.jar] - taken from a prior class. [GitSubpricessClient](https://github.com/CSC109/GitSubprocessClient) Making sure each library is ran in the most updated version of Java (Java SE 16)
 5. A smile on your face! 
 
-##Actual isntalation
+## Actual isntalation
 - Once you have cloned the repo to your desired location on your computer, you will then import it to your programming platform. 
 - Once you have opened up you will import your two libraries by pressing File -> Projuct Structures -> Libraries -> Plus Button -> Add both libraries one at a time -> Press **Apply** and Ok 
 - Once that is all completed everything should be ready to go!  
 
-###Contributers 
+### Contributers 
 Alex S. 
 Amber K.
 Ashley M.
 Rom W.
 
-###Break Down
+### Break Down
 - Alex S: Pull button 
 - Amber K: Add button
 - Ashley M: Commit Button & Website
