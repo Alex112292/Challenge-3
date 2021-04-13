@@ -29,7 +29,7 @@ public class Button extends Ellipse {
             System.out.println("Pulled from master branch.");
         }
         if(_action.equals("Add")){
-            String pull = gitSubprocessClient.gitAdd("master");
+            String gitAddAll = gitSubprocessClient.gitAddAll();
             System.out.println("Changes have been added. Please commit your changes now");
         }
     }
