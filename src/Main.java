@@ -9,7 +9,7 @@ public class Main extends Frame {
     private Scanner _input;
     public Main(){
         _pullButton = new Button(java.awt.Color.RED, "Pull", _path, 500, 200);
-        _addButton = new Button(java.awt.Color.BLUE, "Add", _path, 500,100);
+        _addButton = new Button(java.awt.Color.BLUE, "Add", _path, 300,200);
     }
     public static void main(String[] args) {
         Scanner _input = new Scanner(System.in);
