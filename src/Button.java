@@ -27,6 +27,7 @@ public class Button extends Ellipse {
         if(_action.equals("Pull")){
             String pull = gitSubprocessClient.gitPull("master");
             System.out.println("Pulled from master branch.");
+            System.out.println("This will help test.");
         }
         if(_action.equals("Add")){
             String gitAddAll = gitSubprocessClient.gitAddAll();
